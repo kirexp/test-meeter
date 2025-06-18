@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EnergyChecker.Tests;
 
-public class UnitTest1
+public class MeterReadingProcessorTests
 {
     private readonly Fixture _fixture = new();
 

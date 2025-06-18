@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyChecker", "EnergyChecker\EnergyChecker.csproj", "{87322397-A37A-48FF-8191-CC2C6C994D1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{5DEDACA2-9BBB-43D5-BD70-EB7C76896570}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{2E90C944-6DA0-420B-9FEE-F328B3A4C113}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\infra\docker-compose.yml = SolutionItems\infra\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyChecker.DataAccess", "EnergyChecker.DataAccess\EnergyChecker.DataAccess.csproj", "{41D9008B-7C35-4C8E-A854-5627BAD1DA81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testdata", "testdata", "{8240F443-CA4F-4FF1-830F-66FB15DD7359}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\testdata\Meter_Reading.csv = SolutionItems\testdata\Meter_Reading.csv
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyChecker.Utils", "EnergyChecker.Utils\EnergyChecker.Utils.csproj", "{B74B599D-32CE-47B2-A60A-5664A25123E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A29A5CBD-B4A4-475D-ADD1-235CC773C147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyChecker.Tests", "EnergyChecker.Tests\EnergyChecker.Tests.csproj", "{4D03E283-F623-4E4E-8AB3-75CDA8B92DCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{8D20FC08-140C-4AD8-ABD6-46576C2C4994}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87322397-A37A-48FF-8191-CC2C6C994D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87322397-A37A-48FF-8191-CC2C6C994D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87322397-A37A-48FF-8191-CC2C6C994D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87322397-A37A-48FF-8191-CC2C6C994D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D9008B-7C35-4C8E-A854-5627BAD1DA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D9008B-7C35-4C8E-A854-5627BAD1DA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D9008B-7C35-4C8E-A854-5627BAD1DA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D9008B-7C35-4C8E-A854-5627BAD1DA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74B599D-32CE-47B2-A60A-5664A25123E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74B599D-32CE-47B2-A60A-5664A25123E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74B599D-32CE-47B2-A60A-5664A25123E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74B599D-32CE-47B2-A60A-5664A25123E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D03E283-F623-4E4E-8AB3-75CDA8B92DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D03E283-F623-4E4E-8AB3-75CDA8B92DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D03E283-F623-4E4E-8AB3-75CDA8B92DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D03E283-F623-4E4E-8AB3-75CDA8B92DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E90C944-6DA0-420B-9FEE-F328B3A4C113} = {5DEDACA2-9BBB-43D5-BD70-EB7C76896570}
+		{8240F443-CA4F-4FF1-830F-66FB15DD7359} = {5DEDACA2-9BBB-43D5-BD70-EB7C76896570}
+		{4D03E283-F623-4E4E-8AB3-75CDA8B92DCD} = {A29A5CBD-B4A4-475D-ADD1-235CC773C147}
+	EndGlobalSection
+EndGlobal

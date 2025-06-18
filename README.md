@@ -55,12 +55,6 @@ Creates:
 - Password: `mypass`
 - Port: `5432`
 
-### Stop it later
-
-```bash
-docker compose down
-```
-
 ---
 
 ## Step 2: Run the ASP.NET Core Backend
